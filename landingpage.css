@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+      display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    margin: 13px;
+    width: 100%;
+    padding-bottom: 45px;
+
+}
+.right, .start{
+    border: 2px solid black;
+    border-radius: 9px;
+    background:white;
+    padding: 10px;
+    width: 83px;
+    text-align: center;
+}
+main{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    /* background-image:url("./image/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: rgb(226, 237, 247);
+    display: flex;
+    justify-content: space-between;
+}
+main h2{
+    text-transform: capitalize;
+}
+ .text{
+    padding-top: 23px;
+    margin-left: 23px;
+}
+
+.start{
+    margin: 23px;
+
+background: rgb(236, 46, 141);
+width:229px;
+}
+.pic img{
+    width: 450px;
+    height:450px;
+    margin: 42px;
+}
+.grow {
+    position: absolute;
+    top: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    background-color: rgb(255, 255, 255);
+
+} 
+.growhead{
+    margin: 23px 56px;
+}
+ .flow{
+    position: absolute;
+    top: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+     padding-bottom: 45px;
+}
+.flow .text{
+    margin-right: 25px;
+}
+.user{
+    position: absolute;
+    top: 2100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 55px;
+}
+.center{
+position: relative;
+bottom: 12px;
+padding: 32px;
+background: rgb(255, 254, 254);
+border-radius: 7px;
+align-content: center;
+top: 2470px;
+left: 35%;
+width: 299px;
+margin-bottom: 23px;
+z-index: 9;
+}
+footer{
+    position: absolute;
+top: 2700px;
+background: rgba(15, 7, 58, 0.89);
+color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 95px 0px;
+} 
+.one, .two, .three, .four{
+    display: flex;
+    flex-direction: column;
+align-content: space-around;
+margin: 23px;}
+footer img{
+    width: 120px;
+
+}
+.location img, .mail img, .tel img{
+    width: 19px;
+    height: 19px;
+}
+.copy{
+position: absolute;
+bottom: 19px;
+right: 19px;
+}
